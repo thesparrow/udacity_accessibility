@@ -12,7 +12,25 @@ way to run a local server is with [the Web Server for Chrome extension](https://
 be sure to note this requirement in the example's README as well as in the
 course instructor notes.
 
-## Found a bug?
+## Major code breakdown 
 
-Please feel free to [create an issue](https://github.com/udacity/ud891/issues/new)
-if you find anything wrong with the exercises.
+* Basic form                   
+* DOM order                               
+* Managing focus               
+* Offscreen content  
+* Radio-group     
+* Skip-links             
+* Modals and keyboard traps
+
+
+### Bug in code?
+
+Please feel free to <a href="https://github.com/thesparrow/udacity_accessibility/issues"> create an issue </a> if you find anything wrong with the exercises.
+
+
+### License 
+---
+All code added after forking base project - Copyright @2018- Anna Shilova.
+See the code owners file for a full list of owners. Or go to the <a href="https://github.com/udacity/ud891"> base project</a>. 
+
+
