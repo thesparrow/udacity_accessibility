@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<style> 
+body { background-color: blue}
+h1 {color: white; text-align: center}
+div {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.container {
+  position: relative;
+  width: 50%;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #008CBA;
+}
+
+.container:hover .overlay {
+  opacity: 1;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+</style>
+
+
+<body>
+<h1> Hoover over the pic </h1>
+<div class="container">
+  <img src="https://scontent-sjc3-1.xx.fbcdn.net/v/t31.0-8/23467434_1349885941886572_1200893698244281067_o.jpg?_nc_cat=0&oh=dec87b9bcc4020701b78ca622698bef6&oe=5BDE0CC4" alt="Avatar" class="image">
+  <div class="overlay">
+    <div class="text">Anya is the best</div>
+  </div>
+</div><image>  </image>
+</body>
+
+</html>
